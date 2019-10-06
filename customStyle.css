@@ -1,0 +1,27 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  body{
+    width: 100vw;
+}
+
+#welcome-text {
+    background-image: url('https://images.unsplash.com/photo-1469474968028-56623f02e42e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1053&q=80'); 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70vh; 
+ } 
+
+ #welcome-img {
+    width: 100vw;
+}
+
+.to-the-center {
+    width: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
